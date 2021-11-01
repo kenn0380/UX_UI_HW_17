@@ -93,6 +93,9 @@ body {
 }
 
 .nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     animation-name: scoot;
     animation-duration: 1.2s;
@@ -124,6 +127,7 @@ body {
 #button-div {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-right: 18px;
 }
 
